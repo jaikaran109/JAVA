@@ -1,6 +1,6 @@
 // Java Program to Add Two Binary Strings
 
-// take a look *
+// Have a look *
 
 
 import java.util.Scanner;
