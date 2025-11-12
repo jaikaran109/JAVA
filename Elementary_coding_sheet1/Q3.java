@@ -19,7 +19,6 @@ public class Q3 {
 		if(num < 0) {
 			num *= (-1);
 		}
-		num /= 10;
 		System.out.print(num % 10);
 
 	}
