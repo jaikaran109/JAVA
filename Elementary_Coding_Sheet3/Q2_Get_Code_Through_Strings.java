@@ -38,7 +38,7 @@ package Elementary_Cooding_Sheet3;
 
 
 import java.util.*;
-public class Q1_Ge_Code_Through_Strings {
+public class Q2_Get_Code_Through_Strings {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
