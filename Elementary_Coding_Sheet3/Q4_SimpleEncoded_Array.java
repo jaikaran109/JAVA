@@ -70,7 +70,7 @@ public class Q4_SimpleEncoded_Array {
 
     public static void main(String[] args) {
 
-        int[] input1 = {7, 6, 8, 12, 23}; // Example encoded array
+        int[] input1 = {7, 6, 8, 12, 23}; 
         int input2 = input1.length;
 
         Result res = findOriginalArrayAndSum(input1, input2);
@@ -83,15 +83,13 @@ public class Q4_SimpleEncoded_Array {
 
         int[] original = new int[input2];
 
-        // Last element remains same
         original[input2 - 1] = input1[input2 - 1];
 
-        // Reconstruct original array from back
         for (int i = input2 - 2; i >= 0; i--) {
             original[i] = input1[i] - original[i + 1];
         }
 
-        // Calculate sum of original array
+
         int sum = 0;
         for (int i = 0; i < input2; i++) {
             sum += original[i];
