@@ -11,8 +11,8 @@ public class Q15 {
     int res = 0;
 
     while(b!=0){
-        res=b%10+res;
-        b=b/10;
+        res += b%10;
+        b /= 10;
     }
     if(res == a){
         System.out.println("Number is Neon Number");
