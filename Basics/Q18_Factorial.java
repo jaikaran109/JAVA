@@ -8,9 +8,7 @@ public class Q18 {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int fact = 1;
-        if(n<0){
-            System.out.println("Number is Invalid");
-        } else if(n==0){
+        if(n==0){
             System.out.println("Factorial is :" + 1);
         }else{
             for(int i=n;i>=1;i--){
