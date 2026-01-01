@@ -12,17 +12,17 @@
 
 //input must be b/w 1 to 15
 import java.util.Scanner;
+
 public class Q64 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        for(int i = 1;i<=n;i++){
-            char k = 'k';
-            System.out.print(k+" ");
-            k++;
-            for(int j = 1;j<i;j++){
-                System.out.print(k+" ");
-                k--;
+        int n = input.nextInt();   // n <= 5 for given pattern
+
+        char[] arr = {'E','F','E','D','C'};
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print(arr[j] + " ");
             }
             System.out.println();
         }
