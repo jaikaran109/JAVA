@@ -1,5 +1,9 @@
 // Write a program to convert decimal to any base, like decimal to octal.
 
+
+
+
+
 import java.util.Scanner;
 
 public class Q42 {
