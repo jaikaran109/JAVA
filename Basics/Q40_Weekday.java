@@ -21,7 +21,7 @@ public class Q40 {
         System.out.println("Wednesday");
         break;
     case 4:
-            System.out.println("Thrusday");
+            System.out.println("Thursday");
         break;
     case 5:
         System.out.println("Friday");
