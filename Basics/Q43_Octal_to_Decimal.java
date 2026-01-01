@@ -15,9 +15,9 @@ public class Octal_to_Decimal {
 		int ans = 0;
 		
 		while(n > 0) {
-			ans += ((n % 8) * x);
+			ans += ((n % 10) * x);
 			x *= 8;
-			n /= 8;
+			n /= 10;
 		}
 		System.out.print(ans);
 
