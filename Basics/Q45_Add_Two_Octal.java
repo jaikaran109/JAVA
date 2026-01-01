@@ -15,7 +15,7 @@ public class Add_Two_Octal {
 		int decimal1 = 0;
 		int x = 1;
 		while(a > 0) {
-			decimal1 += ((a % 10)*x);
+			decimal1 += ((a % 10) * x);
 			a /= 10;
 			x *= 8;
 		}
@@ -23,17 +23,18 @@ public class Add_Two_Octal {
 		int decimal2 = 0;
 		int y = 1;
 		while(b > 0) {
-			decimal1 += ((b % 10)*y);
+			decimal2 += ((b % 10)*y);
 			b /= 10;
 			y *= 8;
 		}
 		
-		int ans = decimal1 + decimal2;
+		int sum = decimal1 + decimal2;
+		
 		int res = 0;
 		int z = 1;
-		while(ans > 0) {
-			res += ((ans % 10)*z);
-			ans /= 10;
+		while(sum > 0) {
+			res += ((sum % 8) * z);
+			sum /= 8;
 			z *= 10;
 		}
 		System.out.print(res);
