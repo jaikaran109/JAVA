@@ -1,0 +1,16 @@
+package Assisment1;
+import java.util.*;
+public class PalindromNumber {
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    int n = input.nextInt();
+    int rev = 0;
+    int res = n;
+    while(n > 0){
+        rev = rev * 10 + n % 10;
+        n /= 10;
+    }
+    if(rev == res) System.out.println("Palidrome");
+    else System.out.println("Not Palindrome");
+    }
+}
