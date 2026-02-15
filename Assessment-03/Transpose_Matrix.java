@@ -19,7 +19,7 @@ package Assessment3;
 //• Use nested loops
 
 
-import java.sql.SQLOutput;
+
 import java.util.*;
 public class Transpose_Matrix {
     public static void main(String[] args) {
